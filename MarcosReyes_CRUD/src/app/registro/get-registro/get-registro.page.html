@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+
+  <ion-toolbar>
+    <ion-title style="text-align: center;">LISTAR PERRITOS</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card *ngFor="let registro of registros" (click)="verDetalle(registro.id)">
+    <!-- Contenido de la tarjeta -->
+    <ion-card-header>
+      <ion-card-title>ID: {{ registro?.id }}</ion-card-title>
+      <ion-card-title>NOMBRE: {{ registro.MRM_nombre }}</ion-card-title>
+      <ion-card-title style="text-align: center;">ver detalle</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title routerLink="/" style="text-align: center;">Regresar</ion-title>
+  </ion-toolbar>
+</ion-footer>
+

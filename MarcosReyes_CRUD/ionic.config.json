@@ -1,0 +1,7 @@
+{
+  "name": "MarcosReyes_CRUD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Detalles del registro</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+        
+        <ion-item>
+          <ion-label>ID:</ion-label>
+          <ion-text>{{ registro?.id }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Nombre:</ion-label>
+          <ion-text>{{ registro?.MRM_nombre }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Raza:</ion-label>
+          <ion-text>{{ registro?.MRM_raza }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Edad:</ion-label>
+          <ion-text>{{ registro?.MRM_edad }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Descripción:</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>{{ registro?.MRM_descripcion }}</ion-label>
+        </ion-item>
+        
+      </ion-list>
+
+    </ion-card-content>
+
+  </ion-card>
+
+    <div style="text-align: center;">
+      <ion-button>EDITAR INFORMACIÓN</ion-button>
+      <ion-button (click)="confirmarEliminacion()" color="danger">ELIMINAR REGISTRO</ion-button>
+    </div>
+
+  
+
+
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title (click)="backList()" style="text-align: center;">Regresar</ion-title>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">
+      CRUD de perritos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-text-center">
+
+
+  <div class="center-vertical">
+    <ion-button (click)="CrearPerrito()" expand="full" fill="solid">AGREGAR UN PERRITO</ion-button>
+    <ion-button (click)="ListarRegistros()" expand="full" fill="solid">LISTAR PERRITOS</ion-button>
+  </div>
+
+
+
+</ion-content>
+
+<!-- 
+<div style="text-align: center;">
+  <ion-button>EDITAR INFORMACIÓN</ion-button>
+  <ion-button (click)="confirmarEliminacion()" color="danger">ELIMINAR REGISTRO</ion-button>
+</div> -->
+
+<ion-footer>
+  <ion-toolbar>
+    <h5 style="text-align: center;">Hecho por Marcos Reyes M. "MRM"</h5>
+  </ion-toolbar>
+</ion-footer>

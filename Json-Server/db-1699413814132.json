@@ -1,0 +1,32 @@
+{
+  "MRM_Perritos": [
+    {
+      "id": 1,
+      "MRM_nombre": "FloppaFalopa",
+      "MRM_raza": "Mestizo",
+      "MRM_edad": 2,
+      "MRM_descripcion": "Perro mitad caracal"
+    },
+    {
+      "id": 3,
+      "MRM_nombre": "Max",
+      "MRM_raza": "Golden retriever",
+      "MRM_edad": 4,
+      "MRM_descripcion": "Es un perro muy amigable y leal"
+    },
+    {
+      "id": 4,
+      "MRM_nombre": "Lola",
+      "MRM_raza": "Beagle",
+      "MRM_edad": 3,
+      "MRM_descripcion": "Es una perra muy traviesa y curiosa"
+    },
+    {
+      "id": 5,
+      "MRM_nombre": "Rex",
+      "MRM_raza": "Rottweiler",
+      "MRM_edad": 5,
+      "MRM_descripcion": "Es un perro muy protector y fuerte"
+    }
+  ]
+}

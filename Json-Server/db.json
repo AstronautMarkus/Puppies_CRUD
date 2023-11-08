@@ -1,0 +1,137 @@
+{
+  "MRM_Perritos": [
+    {
+      "id": 1,
+      "MRM_nombre": "FloppaFalopa",
+      "MRM_raza": "Mestizo",
+      "MRM_edad": 2,
+      "MRM_descripcion": "Perro mitad caracal"
+    },
+    {
+      "id": 3,
+      "MRM_nombre": "Max",
+      "MRM_raza": "Golden retriever",
+      "MRM_edad": 4,
+      "MRM_descripcion": "Es un perro muy amigable y leal"
+    },
+    {
+      "id": 4,
+      "MRM_nombre": "Lola",
+      "MRM_raza": "Beagle",
+      "MRM_edad": 3,
+      "MRM_descripcion": "Es una perra muy traviesa y curiosa"
+    },
+    {
+      "id": 5,
+      "MRM_nombre": "Rex",
+      "MRM_raza": "Rottweiler",
+      "MRM_edad": 5,
+      "MRM_descripcion": "Es un perro muy protector y fuerte"
+    },
+    {
+      "id": 6,
+      "MRM_nombre": "Bella",
+      "MRM_raza": "Labrador Retriever",
+      "MRM_edad": 2,
+      "MRM_descripcion": "Es una perra enérgica y cariñosa"
+    },
+    {
+      "id": 7,
+      "MRM_nombre": "Rocky",
+      "MRM_raza": "Bulldog",
+      "MRM_edad": 3,
+      "MRM_descripcion": "Un perro valiente y amigable"
+    },
+    {
+      "id": 8,
+      "MRM_nombre": "Mia",
+      "MRM_raza": "Chihuahua",
+      "MRM_edad": 1,
+      "MRM_descripcion": "Pequeña pero llena de personalidad"
+    },
+    {
+      "id": 9,
+      "MRM_nombre": "Hugo",
+      "MRM_raza": "Dálmata",
+      "MRM_edad": 4,
+      "MRM_descripcion": "Tiene un pelaje único y es juguetón"
+    },
+    {
+      "id": 10,
+      "MRM_nombre": "Coco",
+      "MRM_raza": "Poodle",
+      "MRM_edad": 2,
+      "MRM_descripcion": "Un perro inteligente y juguetón"
+    },
+    {
+      "id": 11,
+      "MRM_nombre": "Daisy",
+      "MRM_raza": "Shih Tzu",
+      "MRM_edad": 3,
+      "MRM_descripcion": "Tiene un pelaje suave y es cariñosa"
+    },
+    {
+      "id": 12,
+      "MRM_nombre": "Leo",
+      "MRM_raza": "Husky Siberiano",
+      "MRM_edad": 4,
+      "MRM_descripcion": "Un perro con ojos azules hermosos"
+    },
+    {
+      "id": 13,
+      "MRM_nombre": "Buddy",
+      "MRM_raza": "Cocker Spaniel",
+      "MRM_edad": 2,
+      "MRM_descripcion": "Un perro amigable y obediente"
+    },
+    {
+      "id": 14,
+      "MRM_nombre": "Lucy",
+      "MRM_raza": "Bichón Frisé",
+      "MRM_edad": 5,
+      "MRM_descripcion": "Una perra encantadora y juguetona"
+    },
+    {
+      "id": 15,
+      "MRM_nombre": "Rusty",
+      "MRM_raza": "Chow Chow",
+      "MRM_edad": 3,
+      "MRM_descripcion": "Un perro con una lengua azul distintiva"
+    },
+    {
+      "id": 16,
+      "MRM_nombre": "Milo",
+      "MRM_raza": "Basset Hound",
+      "MRM_edad": 2,
+      "MRM_descripcion": "Un perro con orejas largas y expresivas"
+    },
+    {
+      "id": 17,
+      "MRM_nombre": "Luna",
+      "MRM_raza": "Havanese",
+      "MRM_edad": 4,
+      "MRM_descripcion": "Una perra alegre y sociable"
+    },
+    {
+      "id": 18,
+      "MRM_nombre": "Oscar",
+      "MRM_raza": "West Highland White Terrier",
+      "MRM_edad": 3,
+      "MRM_descripcion": "Un perro valiente y simpático"
+    },
+    {
+      "MRM_nombre": "Juan",
+      "MRM_raza": "Pitbull",
+      "MRM_edad": 1,
+      "MRM_descripcion": "perro muy poderoso",
+      "id": 19
+    },
+    {
+      "MRM_nombre": "perro bonito",
+      "MRM_raza": "si",
+      "MRM_edad": 1,
+      "MRM_descripcion": "si",
+      "id": 20
+    }
+  ]
+}
