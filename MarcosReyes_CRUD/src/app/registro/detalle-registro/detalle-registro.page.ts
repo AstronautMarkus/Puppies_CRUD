@@ -56,6 +56,12 @@ export class DetalleRegistroPage implements OnInit {
   }
   
   
+  editarRegistro() {
+    if (this.registro && this.registro.id) {
+      this.Router.navigate(['/edit-data-registro', this.registro.id]);
+    }
+  }
+  
 
   backList() {
     this.Router.navigate(['/get-registro']);

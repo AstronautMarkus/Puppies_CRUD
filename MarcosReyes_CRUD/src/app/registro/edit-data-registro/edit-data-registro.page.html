@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">Actualizar información</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div>
+    <h2 style="text-align: center;">Rellenar los datos</h2>
+    
+    <form (submit)="EditarPerro()">
+      <ion-item>
+        <ion-label position="stacked">Nombre</ion-label>
+        <ion-input type="text" name="MRM_nombre" [(ngModel)]="nuevoPerro.MRM_nombre" required></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="stacked">Raza</ion-label>
+        <ion-input type="text" name="MRM_raza" [(ngModel)]="nuevoPerro.MRM_raza" required></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="stacked">Edad</ion-label>
+        <ion-input type="number" name="MRM_edad" [(ngModel)]="nuevoPerro.MRM_edad" required></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="stacked">Descripción</ion-label>
+        <ion-textarea name="MRM_descripcion" [(ngModel)]="nuevoPerro.MRM_descripcion" rows="4" required></ion-textarea>
+      </ion-item>
+      
+      <div style="text-align: center; margin-top: 20px;">
+        <ion-button type="submit" shape="round" color="primary" [disabled]="!isFormValid()">Actualizar datos</ion-button>
+      </div>
+    </form>
+  </div>
+
+
+
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title (click)="regresarRegistro()" style="text-align: center;">Regresar</ion-title>
+  </ion-toolbar>
+</ion-footer>

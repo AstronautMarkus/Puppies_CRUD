@@ -1,13 +1,6 @@
 {
   "MRM_Perritos": [
     {
-      "id": 1,
-      "MRM_nombre": "FloppaFalopa",
-      "MRM_raza": "Mestizo",
-      "MRM_edad": 2,
-      "MRM_descripcion": "Perro mitad caracal"
-    },
-    {
       "id": 3,
       "MRM_nombre": "Max",
       "MRM_raza": "Golden retriever",
@@ -57,11 +50,11 @@
       "MRM_descripcion": "Tiene un pelaje único y es juguetón"
     },
     {
-      "id": 10,
       "MRM_nombre": "Coco",
       "MRM_raza": "Poodle",
       "MRM_edad": 2,
-      "MRM_descripcion": "Un perro inteligente y juguetón"
+      "MRM_descripcion": "Un perro inteligente y juguetón",
+      "id": 10
     },
     {
       "id": 11,
@@ -127,11 +120,18 @@
       "id": 19
     },
     {
-      "MRM_nombre": "perro bonito",
-      "MRM_raza": "si",
-      "MRM_edad": 1,
-      "MRM_descripcion": "si",
+      "MRM_nombre": "Chichicho",
+      "MRM_raza": "Fox Terrier",
+      "MRM_edad": 11,
+      "MRM_descripcion": "perrito pequeño y veterano",
       "id": 20
+    },
+    {
+      "MRM_nombre": "Jason",
+      "MRM_raza": "Doberman",
+      "MRM_edad": 1,
+      "MRM_descripcion": "Bebér doberman café",
+      "id": 21
     }
   ]
 }

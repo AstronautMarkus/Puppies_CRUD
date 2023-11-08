@@ -29,6 +29,10 @@ const routes: Routes = [
     path: 'create-data-registro',
     loadChildren: () => import('./registro/create-data-registro/create-data-registro.module').then( m => m.CreateDataRegistroPageModule)
   },
+  {
+    path: 'edit-data-registro/:id',
+    loadChildren: () => import('./registro/edit-data-registro/edit-data-registro.module').then( m => m.EditDataRegistroPageModule)
+  },
 ];
 
 @NgModule({
